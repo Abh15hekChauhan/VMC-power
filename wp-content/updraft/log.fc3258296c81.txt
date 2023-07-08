@@ -1,0 +1,428 @@
+0000.004 (0) Opened log file at time: Sat, 01 Jul 2023 23:25:47 +0000 on https://vmcpower.com
+0000.006 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.3 WP: 6.2.2 PHP: 8.2.7 (litespeed, Linux sh046.webhostingservices.com 4.19.150-76.ELK.el7.x86_64 #1 SMP Wed Oct 7 01:33:43 CDT 2020 x86_64) MySQL: 5.7.23-23 (max packet size=268435456) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 6.1M | 8M) multisite: N openssl: OpenSSL 1.1.1u  30 May 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.085 (0) Free space on disk containing Updraft's temporary directory: 1139270.9 MB
+0000.088 (0) Tasks: Backup files: 1 (schedule: monthly) Backup DB:  (schedule: monthly)
+0000.088 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.092 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1685663972, seconds_ago=2589975)
+0000.093 (0) Set semaphore last lock (fd) time to 2023-07-01 23:25:47
+0000.094 (0) Semaphore lock (fd) complete
+0000.096 (0) Backup run: resumption=0, nonce=fc3258296c81, file_nonce=fc3258296c81 begun at=1688253947 (0s ago), job type=backup
+0000.097 (0) Scheduling a resumption (1) after 300 seconds (1688254247) in case this run gets aborted
+0000.129 (0) Checking if we have a zip executable available
+0000.129 (0) Testing: /usr/bin/zip
+0000.139 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.140 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.140 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.141 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.141 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.149 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.150 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.166 (0) Working binary zip found: /usr/bin/zip
+0000.167 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.168 (0) Creation of backups of directories: beginning
+0000.171 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.213 (0) PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Backup::$make_zipfile_source is deprecated (line 3385, wp-content/plugins/updraftplus/backup.php)
+0001.795 (0) Total entities for the zip file: 990 directories, 5427 files (0 skipped as non-modified), 85.2 MB
+0001.805 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.815 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.824 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.833 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.842 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.851 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0001.860 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0001.869 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0001.878 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0001.888 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0001.892 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8.9 MB, 5427 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0002.700 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: size is now: 3.10 MB
+0002.712 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 1100 files added (on-disk size: 3132.9 KB)
+0002.721 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 1200 files added (on-disk size: 3132.9 KB)
+0002.731 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 1300 files added (on-disk size: 3132.9 KB)
+0002.741 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 1400 files added (on-disk size: 3132.9 KB)
+0002.752 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 1500 files added (on-disk size: 3132.9 KB)
+0002.762 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 1600 files added (on-disk size: 3132.9 KB)
+0002.771 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 1700 files added (on-disk size: 3132.9 KB)
+0002.781 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 1800 files added (on-disk size: 3132.9 KB)
+0002.790 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 1900 files added (on-disk size: 3132.9 KB)
+0002.799 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 2000 files added (on-disk size: 3132.9 KB)
+0002.800 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (11.1 MB, 5427 files batched, 1001 (2002) added so far); re-opening (prior size: 3132.9 KB)
+0003.725 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: size is now: 6.90 MB
+0003.739 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 2100 files added (on-disk size: 7048.5 KB)
+0003.752 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 2200 files added (on-disk size: 7048.5 KB)
+0003.762 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 2300 files added (on-disk size: 7048.5 KB)
+0003.772 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 2400 files added (on-disk size: 7048.5 KB)
+0003.782 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 2500 files added (on-disk size: 7048.5 KB)
+0003.791 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 2600 files added (on-disk size: 7048.5 KB)
+0003.802 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 2700 files added (on-disk size: 7048.5 KB)
+0003.818 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 2800 files added (on-disk size: 7048.5 KB)
+0003.838 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 2900 files added (on-disk size: 7048.5 KB)
+0003.852 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 3000 files added (on-disk size: 7048.5 KB)
+0003.853 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (16.7 MB, 5427 files batched, 1001 (3003) added so far); re-opening (prior size: 7048.5 KB)
+0005.228 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: size is now: 11.50 MB
+0005.248 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 3100 files added (on-disk size: 11744.5 KB)
+0005.259 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 3200 files added (on-disk size: 11744.5 KB)
+0005.268 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 3300 files added (on-disk size: 11744.5 KB)
+0005.279 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 3400 files added (on-disk size: 11744.5 KB)
+0005.290 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 3500 files added (on-disk size: 11744.5 KB)
+0005.301 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 3600 files added (on-disk size: 11744.5 KB)
+0005.311 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 3700 files added (on-disk size: 11744.5 KB)
+0005.321 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 3800 files added (on-disk size: 11744.5 KB)
+0005.334 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 3900 files added (on-disk size: 11744.5 KB)
+0005.346 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 4000 files added (on-disk size: 11744.5 KB)
+0005.347 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (18.9 MB, 5427 files batched, 1001 (4004) added so far); re-opening (prior size: 11744.5 KB)
+0006.793 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: size is now: 18.00 MB
+0006.822 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 4100 files added (on-disk size: 18438.1 KB)
+0006.832 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 4200 files added (on-disk size: 18438.1 KB)
+0006.843 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 4300 files added (on-disk size: 18438.1 KB)
+0006.858 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 4400 files added (on-disk size: 18438.1 KB)
+0006.870 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 4500 files added (on-disk size: 18438.1 KB)
+0006.882 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 4600 files added (on-disk size: 18438.1 KB)
+0006.891 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 4700 files added (on-disk size: 18438.1 KB)
+0006.902 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 4800 files added (on-disk size: 18438.1 KB)
+0006.912 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 4900 files added (on-disk size: 18438.1 KB)
+0006.922 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 5000 files added (on-disk size: 18438.1 KB)
+0006.923 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (17.3 MB, 5427 files batched, 1001 (5005) added so far); re-opening (prior size: 18438.1 KB)
+0008.069 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: size is now: 21.80 MB
+0008.083 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 5100 files added (on-disk size: 22333.3 KB)
+0008.095 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 5200 files added (on-disk size: 22333.3 KB)
+0008.104 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 5300 files added (on-disk size: 22333.3 KB)
+0008.114 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: 5400 files added (on-disk size: 22333.3 KB)
+0008.750 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.tmp: size is now: 26.70 MB
+0008.807 (0) Creating zip file manifest (backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.list-temp.tmp)
+0008.829 (0) Successfully created zip file manifest (size: 491207)
+0009.127 (0) Created plugins zip (0) - 27328.2 KB in 8.9 s (3065.7 KB/s) (sha1: f57f4f5e715c58ffab8e098ef2e3a657a4c4e675, sha256: 3d54669b6a77e494439c071f1fe6b4ff571a64d3a7c47bda4a0544d9dee02f10)
+0009.135 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0009.136 (0) No remote despatch: user chose no remote backup service
+0009.137 (0) Recording as successfully uploaded: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip
+0009.138 (0) Deleting zip manifest (backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip.list.tmp)
+0009.141 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0009.146 (0) Number of backup sets in history: 2; groups (db): 1
+0009.146 (0) Examining (for databases) backup set with group_id=0, nonce=d23fbd544e89, datestamp=1685663972 (Jun 01 2023 23:59:32)
+0009.146 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0009.147 (0) Examining (for databases) backup set with group_id=0, nonce=d5589e1a22d1, datestamp=1683072676 (May 03 2023 00:11:16)
+0009.147 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0009.147 (0) Number of backup sets in history: 2; groups (files): 1
+0009.147 (0) Examining (for files) backup set with nonce=d23fbd544e89, datestamp=1685663972 (Jun 01 2023 23:59:32)
+0009.147 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0009.148 (0) Examining (for files) backup set with nonce=d5589e1a22d1, datestamp=1683072676 (May 03 2023 00:11:16)
+0009.148 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0009.148 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0009.151 (0) Beginning creation of dump of themes (split every: 400 MB)
+0009.474 (0) Total entities for the zip file: 310 directories, 736 files (0 skipped as non-modified), 25.4 MB
+0009.484 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0009.493 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0009.503 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0009.514 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0009.523 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0009.532 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0009.541 (0) Zip: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0009.544 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.4 MB, 736 files batched, 733 (733) added so far); re-opening (prior size: 0 KB)
+0011.210 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-themes.zip.tmp: size is now: 7.60 MB
+0011.213 (0) A useful amount of data was added after this amount of zip processing: 2.6 s (normalised: 2.5 s, rate: 10067.3 KB/s)
+0011.214 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.579971075058, normalised_time=2.5428837962411, max_time=11.209578990936, data points known=1, old_max_bytes=26214400, new_max_bytes=69335229)
+0011.254 (0) Creating zip file manifest (backup_2023-07-02-0455_vmcpowercom_fc3258296c81-themes.zip.list-temp.tmp)
+0011.258 (0) Successfully created zip file manifest (size: 64033)
+0011.358 (0) Created themes zip (0) - 7826.4 KB in 2.2 s (3638.8 KB/s) (sha1: bb1b492968e0bdf2c08ed75e2891b37a2b6adc3b, sha256: 6569f5187b44e498bef90623deb1f69c55c0ac7ee69a4aa66b157c28c05f8cbb)
+0011.361 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0011.361 (0) No remote despatch: user chose no remote backup service
+0011.362 (0) Recording as successfully uploaded: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-themes.zip
+0011.363 (0) Deleting zip manifest (backup_2023-07-02-0455_vmcpowercom_fc3258296c81-themes.zip.list.tmp)
+0011.364 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0011.365 (0) Number of backup sets in history: 2; groups (db): 1
+0011.365 (0) Examining (for databases) backup set with group_id=0, nonce=d23fbd544e89, datestamp=1685663972 (Jun 01 2023 23:59:32)
+0011.365 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0011.366 (0) Examining (for databases) backup set with group_id=0, nonce=d5589e1a22d1, datestamp=1683072676 (May 03 2023 00:11:16)
+0011.366 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0011.366 (0) Number of backup sets in history: 2; groups (files): 1
+0011.366 (0) Examining (for files) backup set with nonce=d23fbd544e89, datestamp=1685663972 (Jun 01 2023 23:59:32)
+0011.366 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0011.367 (0) Examining (for files) backup set with nonce=d5589e1a22d1, datestamp=1683072676 (May 03 2023 00:11:16)
+0011.367 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0011.367 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0011.370 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0011.371 (0) Looking for candidates to backup in: /home2/vmcpower/public_html/wp-content/uploads
+0011.371 (0) finding files: 2023: adding to list (1)
+0011.372 (0) finding files: elementor: adding to list (2)
+0011.372 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0011.448 (0) Total entities for the zip file: 9 directories, 93 files (0 skipped as non-modified), 8 MB
+0011.601 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-uploads.zip.tmp: size is now: 8.00 MB
+0011.605 (0) Creating zip file manifest (backup_2023-07-02-0455_vmcpowercom_fc3258296c81-uploads.zip.list-temp.tmp)
+0011.606 (0) Successfully created zip file manifest (size: 6400)
+0011.703 (0) Created uploads zip (0) - 8178.3 KB in 0.3 s (28048.6 KB/s) (sha1: 7d1ace415ca1ec47e1e3501013968d9d21d5b50c, sha256: 3a4f65c9f223216da07081caff8cc0eb1dfe8ee68e2214138a80615f39fe3ad4)
+0011.710 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0011.711 (0) No remote despatch: user chose no remote backup service
+0011.712 (0) Recording as successfully uploaded: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-uploads.zip
+0011.714 (0) Deleting zip manifest (backup_2023-07-02-0455_vmcpowercom_fc3258296c81-uploads.zip.list.tmp)
+0011.716 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0011.717 (0) Number of backup sets in history: 2; groups (db): 1
+0011.718 (0) Examining (for databases) backup set with group_id=0, nonce=d23fbd544e89, datestamp=1685663972 (Jun 01 2023 23:59:32)
+0011.718 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0011.718 (0) Examining (for databases) backup set with group_id=0, nonce=d5589e1a22d1, datestamp=1683072676 (May 03 2023 00:11:16)
+0011.718 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0011.718 (0) Number of backup sets in history: 2; groups (files): 1
+0011.718 (0) Examining (for files) backup set with nonce=d23fbd544e89, datestamp=1685663972 (Jun 01 2023 23:59:32)
+0011.718 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0011.719 (0) Examining (for files) backup set with nonce=d5589e1a22d1, datestamp=1683072676 (May 03 2023 00:11:16)
+0011.719 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0011.719 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0011.727 (0) Beginning backup of other directories found in the content directory (index: 0)
+0011.731 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0011.732 (0) Looking for candidates to backup in: /home2/vmcpower/public_html/wp-content
+0011.734 (0) finding files: updraft: skipping: this is the updraft directory
+0011.735 (0) finding files: index.php: adding to list (1)
+0011.738 (0) finding files: upgrade: skipping: excluded by options
+0011.740 (0) finding files: mu-plugins: adding to list (2)
+0011.741 (0) finding files: uploads: skipping: this is the uploads directory
+0011.742 (0) finding files: plugins: skipping: this is the plugins directory
+0011.743 (0) finding files: themes: skipping: this is the themes directory
+0011.802 (0) Total entities for the zip file: 1 directories, 3 files (0 skipped as non-modified), 0 MB
+0011.818 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-others.zip.tmp: size is now: 0.00 MB
+0011.819 (0) Creating zip file manifest (backup_2023-07-02-0455_vmcpowercom_fc3258296c81-others.zip.list-temp.tmp)
+0011.820 (0) Successfully created zip file manifest (size: 119)
+0011.823 (0) Created others zip (0) - 13.6 KB in 0 s (588.5 KB/s) (sha1: d88d4d28b70d8686597771b82fed83745205662d, sha256: c2041f4092ce9ab1a342163351e39aa2968adfafa2cea4e55fc9e6ad19800916)
+0011.825 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0011.826 (0) No remote despatch: user chose no remote backup service
+0011.826 (0) Recording as successfully uploaded: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-others.zip
+0011.827 (0) Deleting zip manifest (backup_2023-07-02-0455_vmcpowercom_fc3258296c81-others.zip.list.tmp)
+0011.828 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0011.828 (0) Number of backup sets in history: 2; groups (db): 1
+0011.829 (0) Examining (for databases) backup set with group_id=0, nonce=d23fbd544e89, datestamp=1685663972 (Jun 01 2023 23:59:32)
+0011.829 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0011.829 (0) Examining (for databases) backup set with group_id=0, nonce=d5589e1a22d1, datestamp=1683072676 (May 03 2023 00:11:16)
+0011.829 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0011.829 (0) Number of backup sets in history: 2; groups (files): 1
+0011.830 (0) Examining (for files) backup set with nonce=d23fbd544e89, datestamp=1685663972 (Jun 01 2023 23:59:32)
+0011.830 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0011.830 (0) Examining (for files) backup set with nonce=d5589e1a22d1, datestamp=1683072676 (May 03 2023 00:11:16)
+0011.830 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0011.830 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0011.834 (0) Saving backup status to database (elements: 8)
+0011.836 (0) Beginning creation of database dump (WordPress DB)
+0011.837 (0) SQL compatibility mode is: NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0011.838 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0011.870 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\n/*!50717 SELECT COUNT(*) INTO @rocksdb_has_p_s_session_variables FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'performance_schema' AND TABL (truncated - 2580 bytes total)
+0011.871 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0011.959 (0) Table ij5_options: Total expected rows (via COUNT): 538
+0012.006 (0) Table ij5_options: Rows added in this batch (next record: 19793): 534 (uncompressed bytes in this segment=1281209) in 0.08 seconds
+0012.012 (0) Table ij5_options: finishing file(s) (2, 122.9 KB)
+0012.016 (0) Table ij5_users: Total expected rows (via COUNT): 1
+0012.016 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0012.018 (0) Table ij5_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1486) in 0.00 seconds
+0012.022 (0) Table ij5_users: finishing file(s) (2, 0.7 KB)
+0012.025 (0) Table ij5_usermeta: Total expected rows (via COUNT): 35
+0012.026 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0012.027 (0) Table ij5_usermeta: Rows added in this batch (next record: 51): 35 (uncompressed bytes in this segment=3752) in 0.00 seconds
+0012.031 (0) Table ij5_usermeta: finishing file(s) (2, 1.7 KB)
+0012.035 (0) Table ij5_actionscheduler_actions: Total expected rows (via COUNT): 0
+0012.036 (0) Table ij5_actionscheduler_actions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1548) in 0.00 seconds
+0012.041 (0) Table ij5_actionscheduler_actions: finishing file(s) (2, 0.5 KB)
+0012.044 (0) Table ij5_actionscheduler_claims: Total expected rows (via COUNT): 0
+0012.045 (0) Table ij5_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=632) in 0.00 seconds
+0012.048 (0) Table ij5_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0012.053 (0) Table ij5_actionscheduler_groups: Total expected rows (via COUNT): 1
+0012.054 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0012.057 (0) Table ij5_actionscheduler_groups: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=696) in 0.01 seconds
+0012.060 (0) Table ij5_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0012.083 (0) Table ij5_actionscheduler_logs: Total expected rows (via COUNT): 0
+0012.088 (0) Table ij5_actionscheduler_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=795) in 0.02 seconds
+0012.092 (0) Table ij5_actionscheduler_logs: finishing file(s) (2, 0.4 KB)
+0012.101 (0) Table ij5_commentmeta: Total expected rows (via COUNT): 0
+0012.102 (0) Table ij5_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=691) in 0.01 seconds
+0012.105 (0) Table ij5_commentmeta: finishing file(s) (2, 0.4 KB)
+0012.109 (0) Table ij5_comments: Total expected rows (via COUNT): 0
+0012.110 (0) Table ij5_comments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1711) in 0.00 seconds
+0012.113 (0) Table ij5_comments: finishing file(s) (2, 0.5 KB)
+0012.117 (0) Table ij5_links: Total expected rows (via COUNT): 0
+0012.118 (0) Table ij5_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1316) in 0.00 seconds
+0012.121 (0) Table ij5_links: finishing file(s) (2, 0.5 KB)
+0012.143 (0) Table ij5_postmeta: Total expected rows (via COUNT): 380
+0012.143 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0012.153 (0) Table ij5_postmeta: Rows added in this batch (next record: 792): 380 (uncompressed bytes in this segment=519262) in 0.03 seconds
+0012.158 (0) Table ij5_postmeta: finishing file(s) (2, 20 KB)
+0012.169 (0) Table ij5_posts: Total expected rows (via COUNT): 87
+0012.170 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0012.176 (0) Table ij5_posts: Rows added in this batch (next record: 156): 87 (uncompressed bytes in this segment=276883) in 0.02 seconds
+0012.179 (0) Table ij5_posts: finishing file(s) (2, 10.2 KB)
+0012.181 (0) Table ij5_term_relationships: Total expected rows (approximate): 7
+0012.182 (0) Table ij5_term_relationships: Rows added in this batch (next record: 100000): 9 (uncompressed bytes in this segment=822) in 0.00 seconds
+0012.185 (0) Table ij5_term_relationships: finishing file(s) (2, 0.4 KB)
+0012.188 (0) Table ij5_term_taxonomy: Total expected rows (via COUNT): 3
+0012.188 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0012.189 (0) Table ij5_term_taxonomy: Rows added in this batch (next record: 5): 3 (uncompressed bytes in this segment=995) in 0.00 seconds
+0012.192 (0) Table ij5_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0012.197 (0) Table ij5_termmeta: Total expected rows (via COUNT): 0
+0012.198 (0) Table ij5_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=664) in 0.00 seconds
+0012.200 (0) Table ij5_termmeta: finishing file(s) (2, 0.4 KB)
+0012.204 (0) Table ij5_terms: Total expected rows (via COUNT): 3
+0012.205 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0012.206 (0) Table ij5_terms: Rows added in this batch (next record: 5): 3 (uncompressed bytes in this segment=829) in 0.00 seconds
+0012.208 (0) Table ij5_terms: finishing file(s) (2, 0.5 KB)
+0012.213 (0) Table ij5_ce4wp_contacts: Total expected rows (via COUNT): 0
+0012.214 (0) Table ij5_ce4wp_contacts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=846) in 0.00 seconds
+0012.217 (0) Table ij5_ce4wp_contacts: finishing file(s) (2, 0.4 KB)
+0012.221 (0) Table ij5_e_events: Total expected rows (via COUNT): 0
+0012.222 (0) Table ij5_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=535) in 0.00 seconds
+0012.224 (0) Table ij5_e_events: finishing file(s) (2, 0.4 KB)
+0012.229 (0) Table ij5_hustle_entries: Total expected rows (via COUNT): 0
+0012.230 (0) Table ij5_hustle_entries: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=709) in 0.00 seconds
+0012.232 (0) Table ij5_hustle_entries: finishing file(s) (2, 0.4 KB)
+0012.237 (0) Table ij5_hustle_entries_meta: Total expected rows (via COUNT): 0
+0012.238 (0) Table ij5_hustle_entries_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=902) in 0.00 seconds
+0012.241 (0) Table ij5_hustle_entries_meta: finishing file(s) (2, 0.4 KB)
+0012.243 (0) Table ij5_hustle_modules: Total expected rows (via COUNT): 1
+0012.243 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0012.245 (0) Table ij5_hustle_modules: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=903) in 0.00 seconds
+0012.247 (0) Table ij5_hustle_modules: finishing file(s) (2, 0.5 KB)
+0012.250 (0) Table ij5_hustle_modules_meta: Total expected rows (via COUNT): 9
+0012.251 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0012.254 (0) Table ij5_hustle_modules_meta: Rows added in this batch (next record: 9): 9 (uncompressed bytes in this segment=79626) in 0.00 seconds
+0012.257 (0) Table ij5_hustle_modules_meta: finishing file(s) (2, 10.5 KB)
+0012.261 (0) Table ij5_hustle_tracking: Total expected rows (via COUNT): 105
+0012.262 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0012.264 (0) Table ij5_hustle_tracking: Rows added in this batch (next record: 105): 105 (uncompressed bytes in this segment=11107) in 0.00 seconds
+0012.267 (0) Table ij5_hustle_tracking: finishing file(s) (2, 2.4 KB)
+0012.272 (0) Table ij5_rank_math_internal_links: Total expected rows (via COUNT): 0
+0012.274 (0) Table ij5_rank_math_internal_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=761) in 0.00 seconds
+0012.276 (0) Table ij5_rank_math_internal_links: finishing file(s) (2, 0.4 KB)
+0012.280 (0) Table ij5_rank_math_internal_meta: Total expected rows (via COUNT): 0
+0012.281 (0) Table ij5_rank_math_internal_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=659) in 0.00 seconds
+0012.283 (0) Table ij5_rank_math_internal_meta: finishing file(s) (2, 0.3 KB)
+0012.289 (0) Table ij5_wpforms_tasks_meta: Total expected rows (via COUNT): 0
+0012.289 (0) Table ij5_wpforms_tasks_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=611) in 0.00 seconds
+0012.292 (0) Table ij5_wpforms_tasks_meta: finishing file(s) (2, 0.4 KB)
+0012.298 (0) Table ij5_yoast_indexable: Total expected rows (via COUNT): 8
+0012.298 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0012.300 (0) Table ij5_yoast_indexable: Rows added in this batch (next record: 9): 8 (uncompressed bytes in this segment=7137) in 0.01 seconds
+0012.303 (0) Table ij5_yoast_indexable: finishing file(s) (2, 1.6 KB)
+0012.306 (0) Table ij5_yoast_indexable_hierarchy: Total expected rows (approximate): 6
+0012.309 (0) Table ij5_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 6 (uncompressed bytes in this segment=897) in 0.00 seconds
+0012.311 (0) Table ij5_yoast_indexable_hierarchy: finishing file(s) (2, 0.4 KB)
+0012.314 (0) Table ij5_yoast_migrations: Total expected rows (via COUNT): 23
+0012.315 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0012.317 (0) Table ij5_yoast_migrations: Rows added in this batch (next record: 23): 23 (uncompressed bytes in this segment=1249) in 0.00 seconds
+0012.319 (0) Table ij5_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0012.324 (0) Table ij5_yoast_primary_term: Total expected rows (via COUNT): 0
+0012.326 (0) Table ij5_yoast_primary_term: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=864) in 0.00 seconds
+0012.328 (0) Table ij5_yoast_primary_term: finishing file(s) (2, 0.4 KB)
+0012.332 (0) Table ij5_yoast_seo_links: Total expected rows (via COUNT): 0
+0012.334 (0) Table ij5_yoast_seo_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=987) in 0.00 seconds
+0012.336 (0) Table ij5_yoast_seo_links: finishing file(s) (2, 0.4 KB)
+0012.336 (0) PHP event: code E_WARNING: filemtime(): stat failed for /home2/vmcpower/public_html/wp-content/updraft/backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db.gz (line 1924, wp-content/plugins/updraftplus/backup.php)
+0012.337 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_options.table.tmpr19794.gz (1/31/fopen): adding to final database dump
+0012.339 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_options.table.gz (2/31/fopen): adding to final database dump
+0012.340 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_users.table.tmpr2.gz (3/31/fopen): adding to final database dump
+0012.341 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_users.table.gz (4/31/fopen): adding to final database dump
+0012.341 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_usermeta.table.tmpr52.gz (5/31/fopen): adding to final database dump
+0012.341 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_usermeta.table.gz (6/31/fopen): adding to final database dump
+0012.342 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_actionscheduler_actions.table.tmpr0.gz (7/31/fopen): adding to final database dump
+0012.342 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_actionscheduler_actions.table.gz (8/31/fopen): adding to final database dump
+0012.342 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_actionscheduler_claims.table.tmpr0.gz (9/31/fopen): adding to final database dump
+0012.343 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_actionscheduler_claims.table.gz (10/31/fopen): adding to final database dump
+0012.343 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_actionscheduler_groups.table.tmpr2.gz (11/31/fopen): adding to final database dump
+0012.344 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_actionscheduler_groups.table.gz (12/31/fopen): adding to final database dump
+0012.344 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_actionscheduler_logs.table.tmpr0.gz (13/31/fopen): adding to final database dump
+0012.344 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_actionscheduler_logs.table.gz (14/31/fopen): adding to final database dump
+0012.345 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_commentmeta.table.tmpr0.gz (15/31/fopen): adding to final database dump
+0012.345 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_commentmeta.table.gz (16/31/fopen): adding to final database dump
+0012.345 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_comments.table.tmpr0.gz (17/31/fopen): adding to final database dump
+0012.346 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_comments.table.gz (18/31/fopen): adding to final database dump
+0012.359 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_links.table.tmpr0.gz (19/31/fopen): adding to final database dump
+0012.359 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_links.table.gz (20/31/fopen): adding to final database dump
+0012.360 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_postmeta.table.tmpr793.gz (21/31/fopen): adding to final database dump
+0012.360 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_postmeta.table.gz (22/31/fopen): adding to final database dump
+0012.360 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_posts.table.tmpr157.gz (23/31/fopen): adding to final database dump
+0012.361 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_posts.table.gz (24/31/fopen): adding to final database dump
+0012.361 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_term_relationships.table.tmpr100001.gz (25/31/fopen): adding to final database dump
+0012.362 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_term_relationships.table.gz (26/31/fopen): adding to final database dump
+0012.362 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_term_taxonomy.table.tmpr6.gz (27/31/fopen): adding to final database dump
+0012.363 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_term_taxonomy.table.gz (28/31/fopen): adding to final database dump
+0012.363 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_termmeta.table.tmpr0.gz (29/31/fopen): adding to final database dump
+0012.363 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_termmeta.table.gz (30/31/fopen): adding to final database dump
+0012.364 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_terms.table.tmpr6.gz (31/31/fopen): adding to final database dump
+0012.364 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_terms.table.gz (32/31/fopen): adding to final database dump
+0012.364 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_ce4wp_contacts.table.tmpr0.gz (33/31/fopen): adding to final database dump
+0012.365 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_ce4wp_contacts.table.gz (34/31/fopen): adding to final database dump
+0012.365 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_e_events.table.tmpr0.gz (35/31/fopen): adding to final database dump
+0012.365 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_e_events.table.gz (36/31/fopen): adding to final database dump
+0012.365 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_hustle_entries.table.tmpr0.gz (37/31/fopen): adding to final database dump
+0012.366 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_hustle_entries.table.gz (38/31/fopen): adding to final database dump
+0012.366 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_hustle_entries_meta.table.tmpr0.gz (39/31/fopen): adding to final database dump
+0012.366 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_hustle_entries_meta.table.gz (40/31/fopen): adding to final database dump
+0012.367 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_hustle_modules.table.tmpr2.gz (41/31/fopen): adding to final database dump
+0012.367 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_hustle_modules.table.gz (42/31/fopen): adding to final database dump
+0012.368 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_hustle_modules_meta.table.tmpr10.gz (43/31/fopen): adding to final database dump
+0012.368 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_hustle_modules_meta.table.gz (44/31/fopen): adding to final database dump
+0012.368 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_hustle_tracking.table.tmpr106.gz (45/31/fopen): adding to final database dump
+0012.369 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_hustle_tracking.table.gz (46/31/fopen): adding to final database dump
+0012.369 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_rank_math_internal_links.table.tmpr0.gz (47/31/fopen): adding to final database dump
+0012.370 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_rank_math_internal_links.table.gz (48/31/fopen): adding to final database dump
+0012.370 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_rank_math_internal_meta.table.tmpr0.gz (49/31/fopen): adding to final database dump
+0012.370 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_rank_math_internal_meta.table.gz (50/31/fopen): adding to final database dump
+0012.370 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_wpforms_tasks_meta.table.tmpr0.gz (51/31/fopen): adding to final database dump
+0012.371 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_wpforms_tasks_meta.table.gz (52/31/fopen): adding to final database dump
+0012.371 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_yoast_indexable.table.tmpr10.gz (53/31/fopen): adding to final database dump
+0012.371 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_yoast_indexable.table.gz (54/31/fopen): adding to final database dump
+0012.372 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_yoast_indexable_hierarchy.table.tmpr1001.gz (55/31/fopen): adding to final database dump
+0012.372 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_yoast_indexable_hierarchy.table.gz (56/31/fopen): adding to final database dump
+0012.372 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_yoast_migrations.table.tmpr24.gz (57/31/fopen): adding to final database dump
+0012.373 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_yoast_migrations.table.gz (58/31/fopen): adding to final database dump
+0012.373 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_yoast_primary_term.table.tmpr0.gz (59/31/fopen): adding to final database dump
+0012.373 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_yoast_primary_term.table.gz (60/31/fopen): adding to final database dump
+0012.374 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_yoast_seo_links.table.tmpr0.gz (61/31/fopen): adding to final database dump
+0012.374 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db-table-ij5_yoast_seo_links.table.gz (62/31/fopen): adding to final database dump
+0012.378 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db.gz: finished writing out complete database file (179.6 KB)
+0012.385 (0) Total database tables backed up: 31 (backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db.gz, size: 184072, sha1: a084e522c9cbf196d32c01f9e967a1ec07d698d8, sha256: 0b65410ddb7214fece3f65509448d8a6d3d0cb76f2f20288165b7277e4c17bee)
+0012.387 (0) PHP event: code E_DEPRECATED: strlen(): Passing null to parameter #1 ($string) of type string is deprecated (line 2866, wp-content/plugins/updraftplus/backup.php)
+0012.389 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-plugins.zip: plugins: This file has already been successfully uploaded
+0012.390 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-themes.zip: themes: This file has already been successfully uploaded
+0012.390 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-uploads.zip: uploads: This file has already been successfully uploaded
+0012.390 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-others.zip: others: This file has already been successfully uploaded
+0012.390 (0) backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db.gz: db: This file has not yet been successfully uploaded: will queue
+0012.391 (0) Saving backup history. Total backup size: 42.5 MB
+0012.392 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0012.393 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0012.393 (0) No remote despatch: user chose no remote backup service
+0012.394 (0) Recording as successfully uploaded: backup_2023-07-02-0455_vmcpowercom_fc3258296c81-db.gz
+0012.395 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0012.396 (0) Number of backup sets in history: 3; groups (db): 1
+0012.396 (0) Examining (for databases) backup set with group_id=0, nonce=fc3258296c81, datestamp=1688253947 (Jul 01 2023 23:25:47)
+0012.396 (0) This backup set is the backup set just made, so will not be deleted.
+0012.396 (0) Examining (for databases) backup set with group_id=0, nonce=d23fbd544e89, datestamp=1685663972 (Jun 01 2023 23:59:32)
+0012.396 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0012.396 (0) Examining (for databases) backup set with group_id=0, nonce=d5589e1a22d1, datestamp=1683072676 (May 03 2023 00:11:16)
+0012.396 (0) 1683072676: db: this set includes a database (backup_2023-05-03-0541_vmcpowercom_d5589e1a22d1-db.gz); db count is now 2
+0012.396 (0) 1683072676: db: over retain limit (2); will delete this database
+0012.396 (0) Delete file: backup_2023-05-03-0541_vmcpowercom_d5589e1a22d1-db.gz, service=none
+0012.397 (0) Deleting local copy (backup_2023-05-03-0541_vmcpowercom_d5589e1a22d1-db.gz)
+0012.398 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0012.398 (0) Number of backup sets in history: 3; groups (files): 1
+0012.399 (0) Examining (for files) backup set with nonce=fc3258296c81, datestamp=1688253947 (Jul 01 2023 23:25:47)
+0012.399 (0) This backup set is the backup set just made, so will not be deleted.
+0012.399 (0) This backup set is the backup set just made, so will not be deleted.
+0012.399 (0) This backup set is the backup set just made, so will not be deleted.
+0012.399 (0) This backup set is the backup set just made, so will not be deleted.
+0012.399 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0012.399 (0) Examining (for files) backup set with nonce=d23fbd544e89, datestamp=1685663972 (Jun 01 2023 23:59:32)
+0012.399 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0012.399 (0) Examining (for files) backup set with nonce=d5589e1a22d1, datestamp=1683072676 (May 03 2023 00:11:16)
+0012.399 (0) plugins: over retain limit (2); will delete this file entity
+0012.399 (0) themes: over retain limit (2); will delete this file entity
+0012.399 (0) uploads: over retain limit (2); will delete this file entity
+0012.399 (0) others: over retain limit (2); will delete this file entity
+0012.399 (0) Delete file: backup_2023-05-03-0541_vmcpowercom_d5589e1a22d1-plugins.zip, service=none
+0012.400 (0) Deleting local copy (backup_2023-05-03-0541_vmcpowercom_d5589e1a22d1-plugins.zip)
+0012.400 (0) Delete file: backup_2023-05-03-0541_vmcpowercom_d5589e1a22d1-themes.zip, service=none
+0012.401 (0) Deleting local copy (backup_2023-05-03-0541_vmcpowercom_d5589e1a22d1-themes.zip)
+0012.401 (0) Delete file: backup_2023-05-03-0541_vmcpowercom_d5589e1a22d1-uploads.zip, service=none
+0012.402 (0) Deleting local copy (backup_2023-05-03-0541_vmcpowercom_d5589e1a22d1-uploads.zip)
+0012.402 (0) Delete file: backup_2023-05-03-0541_vmcpowercom_d5589e1a22d1-others.zip, service=none
+0012.402 (0) Deleting local copy (backup_2023-05-03-0541_vmcpowercom_d5589e1a22d1-others.zip)
+0012.403 (0) This backup set is now empty; will remove from history
+0012.404 (0) Corresponding log file (log.d5589e1a22d1.txt) not found - must have already been deleted
+0012.404 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0012.406 (0) Resume backup (fc3258296c81, 0): finish run
+0012.406 (0) Decremented the semaphore (fd) by 1
+0012.407 (0) Semaphore (fd) unlocked
+0012.407 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0012.409 (0) No email will/can be sent - the user has not configured an email address.
+0012.409 (0) The backup apparently succeeded and is now complete

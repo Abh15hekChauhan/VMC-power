@@ -1,0 +1,8 @@
+[05-Mar-2023 10:49:14 UTC] Bluehost WP Plugin: Failed to fetch token: {"error":"Forbidden","http_status":403,"_status_code":403,"_response":"{\"error\":\"Forbidden\",\"http_status\":403}"}
+[05-Mar-2023 10:49:38 UTC] PHP Deprecated:  Creation of dynamic property IXR_Message::$currentTag is deprecated in /home2/vmcpower/public_html/RMCKids/wp-includes/IXR/class-IXR-message.php on line 147
+[05-Mar-2023 10:50:05 UTC] Bluehost WP Plugin: Failed to fetch token: {"error":"Forbidden","http_status":403,"_status_code":403,"_response":"{\"error\":\"Forbidden\",\"http_status\":403}"}
+[05-Mar-2023 10:51:26 UTC] Bluehost WP Plugin: Failed to fetch token: {"error":"Forbidden","http_status":403,"_status_code":403,"_response":"{\"error\":\"Forbidden\",\"http_status\":403}"}
+[05-Mar-2023 10:53:12 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[05-Mar-2023 10:54:09 UTC] Cron reschedule event error for hook: nfd_data_sync_cron, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"minutely","args":[],"interval":60}
+[05-Mar-2023 10:54:15 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[08-Mar-2023 13:23:53 UTC] Cron reschedule event error for hook: wpforms_email_summaries_cron, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"wpforms_email_summaries_weekly","args":[],"interval":604800}
